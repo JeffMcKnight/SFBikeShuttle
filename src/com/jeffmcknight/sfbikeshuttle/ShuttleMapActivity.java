@@ -42,6 +42,7 @@ import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
+//import android.webkit.WebView.FindListener;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -64,7 +65,6 @@ public class ShuttleMapActivity
 	extends Activity 
 	implements GooglePlayServicesClient.ConnectionCallbacks, GooglePlayServicesClient.OnConnectionFailedListener
 {
-
 
 	// *** Class CONSTANTS ***
 	private static final String TAG = ShuttleMapActivity.class.getSimpleName();
@@ -772,14 +772,14 @@ public class ShuttleMapActivity
 	    AsyncTwitterFactory asyncFactory;
 	    
 	    // Config Twitter4J properties. 
-	    // These OAuth tokens are for the @BikeShuttle Twitter feed.
-	    // TODO [JAM] - should move these to a class (xml?) that can be obscured
+	    // These are the OAuth tokens for the @BikeShuttle Twitter feed.
+	    // Strings are stored in res/values/oauth_token.xml (excluded from GitHub repository)
 	    configBuilderTwitterFeed = new ConfigurationBuilder();
 	    configBuilderTwitterFeed.setDebugEnabled(true)
-	      .setOAuthConsumerKey("sNAH8YaxBzUhRIPVHu8zA")
-	      .setOAuthConsumerSecret("CfA7AMdKHAp6AkrNqvC9wttrKyqIrd0xvynCqe0C6c")
-	      .setOAuthAccessToken("373728709-uzNKbZerlSdA58cIVmdjKwcwShXqGK0J4Z2wLugj")
-	      .setOAuthAccessTokenSecret("kbHpyQlqlxAgC57rrUqhPTe28Br5H2eEjxN7x9im8Y");
+	      .setOAuthConsumerKey		(getString(R.string.oauth_consumer_key))
+	      .setOAuthConsumerSecret	(getString(R.string.oauth_consumer_secret))
+	      .setOAuthAccessToken		(getString(R.string.oauth_consumer_access_token))
+	      .setOAuthAccessTokenSecret(getString(R.string.oauth_consumer_token_secret));
 	   
 	    listener = new AsyncTwitterListener(); 
 	    asyncFactory = new AsyncTwitterFactory(configBuilderTwitterFeed.build());

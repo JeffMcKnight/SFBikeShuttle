@@ -72,12 +72,12 @@ int layout activity_shuttle_map 0x7f030000
 int layout dialog_signin 0x7f030001
 int layout fragment_layout 0x7f030002
 int menu shuttle_map 0x7f090000
-int string action_settings 0x7f060016
-int string alert_dialog_cancel 0x7f06001c
-int string alert_dialog_ok 0x7f06001b
-int string alert_dialog_shuttle_location_title 0x7f060019
-int string alert_dialog_two_buttons_title 0x7f06001a
-int string app_name 0x7f060015
+int string action_settings 0x7f06001a
+int string alert_dialog_cancel 0x7f060020
+int string alert_dialog_ok 0x7f06001f
+int string alert_dialog_shuttle_location_title 0x7f06001d
+int string alert_dialog_two_buttons_title 0x7f06001e
+int string app_name 0x7f060019
 int string auth_client_availability_notification_title 0x7f06000f
 int string auth_client_play_services_err_notification_msg 0x7f060010
 int string auth_client_requested_by_msg 0x7f060011
@@ -99,10 +99,14 @@ int string common_signin_button_text_long 0x7f06000e
 int string location_client_ulr_inactive_age_under_13 0x7f060012
 int string location_client_ulr_inactive_age_unknown 0x7f060013
 int string location_client_ulr_inactive_unknown_restriction 0x7f060014
-int string oakland_station_name 0x7f060018
-int string password 0x7f06001d
-int string sf_station_name 0x7f060017
-int string username 0x7f06001e
+int string oakland_station_name 0x7f06001c
+int string oauth_consumer_access_token 0x7f060017
+int string oauth_consumer_key 0x7f060015
+int string oauth_consumer_secret 0x7f060016
+int string oauth_consumer_token_secret 0x7f060018
+int string password 0x7f060021
+int string sf_station_name 0x7f06001b
+int string username 0x7f060022
 int style AppBaseTheme 0x7f080000
 int style AppTheme 0x7f080001
 int[] styleable MapAttrs { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d }

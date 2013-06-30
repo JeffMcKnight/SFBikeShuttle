@@ -209,12 +209,12 @@ containing a value of this type.
         public static final int shuttle_map=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060016;
-        public static final int alert_dialog_cancel=0x7f06001c;
-        public static final int alert_dialog_ok=0x7f06001b;
-        public static final int alert_dialog_shuttle_location_title=0x7f060019;
-        public static final int alert_dialog_two_buttons_title=0x7f06001a;
-        public static final int app_name=0x7f060015;
+        public static final int action_settings=0x7f06001a;
+        public static final int alert_dialog_cancel=0x7f060020;
+        public static final int alert_dialog_ok=0x7f06001f;
+        public static final int alert_dialog_shuttle_location_title=0x7f06001d;
+        public static final int alert_dialog_two_buttons_title=0x7f06001e;
+        public static final int app_name=0x7f060019;
         /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=70] 
          */
         public static final int auth_client_availability_notification_title=0x7f06000f;
@@ -290,10 +290,14 @@ containing a value of this type.
         public static final int location_client_ulr_inactive_age_under_13=0x7f060012;
         public static final int location_client_ulr_inactive_age_unknown=0x7f060013;
         public static final int location_client_ulr_inactive_unknown_restriction=0x7f060014;
-        public static final int oakland_station_name=0x7f060018;
-        public static final int password=0x7f06001d;
-        public static final int sf_station_name=0x7f060017;
-        public static final int username=0x7f06001e;
+        public static final int oakland_station_name=0x7f06001c;
+        public static final int oauth_consumer_access_token=0x7f060017;
+        public static final int oauth_consumer_key=0x7f060015;
+        public static final int oauth_consumer_secret=0x7f060016;
+        public static final int oauth_consumer_token_secret=0x7f060018;
+        public static final int password=0x7f060021;
+        public static final int sf_station_name=0x7f06001b;
+        public static final int username=0x7f060022;
     }
     public static final class style {
         /** 
